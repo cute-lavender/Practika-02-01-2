@@ -17,7 +17,6 @@ namespace Lesson1_Exercise1_CS
         else Console.WriteLine(s + " is unknown");
       }
     }
-
     static bool IsPhone(string s)
     {
       return Regex.IsMatch(s, @"^\(?\d{3}\)?[\s\-]?\d{3}\-?\d{4}$");
